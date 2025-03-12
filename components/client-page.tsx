@@ -127,39 +127,53 @@ function NavLinks({ mobile = false }: { mobile?: boolean }) {
 
 function About() {
   return (
-    <section id="about" className="pt-32 pb-24 bg-white">
+    <section id="about" className="py-24 bg-white">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <Image
-              src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?q=80&w=600&h=800&auto=format&fit=crop"
+              src="https://cdn.shopify.com/s/files/1/0651/4743/7218/files/Untitled_design.jpg?v=1738496067"
               alt="Florian Hurel Portrait"
               width={600}
-              height={800}
+              height={600}
               className="rounded-lg shadow-lg object-cover"
             />
           </div>
 
           <div className="space-y-6">
-            <h2 className="text-3xl md:text-4xl font-serif font-bold tracking-tight">Meet Florian Hurel</h2>
+            <h2 className="text-3xl md:text-4xl font-serif font-bold tracking-tight">
+              About Florian Hurel
+            </h2>
 
-            <p className="text-gray-700 leading-relaxed text-lg">
-              With over 20 years of experience in the beauty industry, Florian Hurel stands as a renowned figure in the
-              world of hair styling and beauty. His journey began at a young age, driven by a passion for creativity and
-              a keen eye for aesthetic beauty.
+            <p className="text-gray-700 leading-relaxed">
+              With over 2 decades of experience in the beauty industry, Florian
+              Hurel stands as a renowned figure in the world of hair styling and
+              beauty.
             </p>
 
-            <p className="text-gray-700 leading-relaxed text-lg">
-              Florian's expertise extends across a wide spectrum of styles and techniques, from classic elegance to
-              avant-garde innovation. His meticulous attention to detail, combined with his innate sense of style,
-              allows him to create personalized looks that enhance each client's unique features and personality.
+            <p className="text-gray-700 leading-relaxed">
+              Florian, who forayed into the world of fashion at the tender age
+              of 16, is known for his unique and minimalistic style and has
+              carved out a niche for himself in Bollywood. With almost two
+              decades of experience in make-up and hair styling, he has worked
+              with artists on the most prestigious platforms, such as the Cannes
+              Film Festival and prominent film awards in the country.
             </p>
 
-            <p className="text-gray-700 leading-relaxed text-lg">
-              Florian Hurel is a part of the new wave of European Hair and Makeup artists, working across the Globe.
-              Hairstylist and Makeup Artist to Bollywood's empowering women such as Deepika Padukone, Priyanka Chopra,
-              Anushka Sharma and many more, also adding value to his profile on working with them on some of India's
-              highest grossing Bollywood Blockbusters.
+            <p className="text-gray-700 leading-relaxed">
+              Hair and make-up artist Florian Hurel is a trendsetter! French
+              make-up and hair stylist Florian Hurel is one of the most sought-
+              after names in the entertainment industry today. He has styled the
+              likes of Deepika Padukone, Priyanka Chopra Jonas, Anushka Sharma,
+              Shraddha Kapoor, Aishwarya Rai Bachchan, Katrina Kaif many more,
+              also adding value to his profile on working with them on some of
+              India's highest grossing Bollywood Blockbusters.
+            </p>
+
+            <p className="text-gray-700 leading-relaxed">
+              His uniqueness and recognition in creating looks, Florian is the
+              go to Artist for high-end fashion magazines such as Vogue, GQ,
+              Harpers Bazaar , Elle, and Grazia.
             </p>
 
             <div className="pt-4">
@@ -174,7 +188,7 @@ function About() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 function BrandSections() {
@@ -190,18 +204,34 @@ function BrandSections() {
               </h2>
 
               <p className="text-gray-700 leading-relaxed">
-                Florian Hurel Hair Couture & Spa represents the pinnacle of
-                luxury hair care and wellness. This exclusive establishment
-                offers a sanctuary where clients can experience premium hair
-                styling services and rejuvenating spa treatments.
+                Florian Hurel Hair Couture & Spa is more than just a destination
+                for beauty—it’s an artistic expression that connects hair
+                styling and wellness to the essence of individuality and
+                empowerment. Founded by renowned celebrity Hair & Makeup Artist
+                Florian Hurel, our space redefines luxury, blending high-end
+                hair couture with rejuvenating spa experiences.
               </p>
 
               <p className="text-gray-700 leading-relaxed">
-                With a team of skilled professionals handpicked by Florian
-                himself, the salon embodies luxury, sophistication, and
-                unparalleled craftsmanship. Each service is tailored to enhance
-                the client's natural beauty while providing a transformative
-                experience.
+                For Florian, Hair Couture is an intimate journey of beauty—a
+                form of self-expression that celebrates diversity and
+                uniqueness. This philosophy extends beyond styling, with
+                training at its core, ensuring that every artist under his
+                guidance understands and enhances the distinct beauty of every
+                individual they work with.
+              </p>
+
+              <p className="text-gray-700 leading-relaxed">
+                Complementing this vision, our spa services offer a sanctuary of
+                relaxation and renewal, designed to restore balance and enhance
+                natural beauty. Whether it’s a transformative hair experience or
+                a soothing spa retreat, Florian Hurel Hair Couture & Spa is a
+                haven for self-care, empowerment, and artistry.
+              </p>
+
+              <p className="text-gray-700 leading-relaxed">
+                Here, beauty is not just a craft—it’s a powerful tool for
+                confidence, self-expression, and transformation.
               </p>
 
               <div className="pt-4">
