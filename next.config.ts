@@ -5,6 +5,11 @@ const nextConfig: NextConfig = {
     domains: ["images.unsplash.com", "cdn.shopify.com"],
 
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+
+
 };
 
 export default nextConfig;

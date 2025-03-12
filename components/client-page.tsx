@@ -16,8 +16,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { useState, useRef, useEffect } from "react";
-import { useMediaQuery } from "@/hooks/use-media-query";
+import { useState, useRef} from "react";
 
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -31,7 +30,6 @@ import {
   FormMessage,
 } from "@/components/ui/form";
 import { sendContactEmail } from "@/app/actions";
-import { ControllerRenderProps } from "react-hook-form";
 
 import { toast } from "sonner";
 
