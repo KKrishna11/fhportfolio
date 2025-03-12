@@ -1,6 +1,5 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Playfair_Display, Montserrat } from "next/font/google"
 import { Cormorant_Garamond, Poppins } from "next/font/google"
 
 import "./globals.css"
