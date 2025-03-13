@@ -335,6 +335,15 @@ function BrandSections() {
               </h2>
 
               <p className="text-gray-700 leading-relaxed">
+                Florian, the No1 CrossFit athlete, faced a challenging time when
+                his gym closed during COVID. Determined to regain control of his
+                health and well-being, he built his own gym—FlofitBox. What
+                started as a personal space to stay fit soon became a
+                community-driven fitness hub, inspiring others to prioritize
+                their health and resilience.
+              </p>
+
+              <p className="text-gray-700 leading-relaxed">
                 FloFitBox is Mumbai's premier Multifunctional Fitness Center,
                 founded by Florian Hurel. As a fitness enthusiast who trained in
                 Wushu and Thai Boxing in Thailand, Florian discovered

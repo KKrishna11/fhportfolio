@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import type React from "react";
 
@@ -16,7 +16,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { useState, useRef} from "react";
+import { useState, useRef } from "react";
 
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -44,18 +44,18 @@ export default function ClientPage() {
       <ContactForm />
       <Footer />
     </div>
-  )
+  );
 }
 
 function Header() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const [scrolled, setScrolled] = useState(false)
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   // Handle scroll effect
   if (typeof window !== "undefined") {
     window.addEventListener("scroll", () => {
-      setScrolled(window.scrollY > 50)
-    })
+      setScrolled(window.scrollY > 50);
+    });
   }
 
   return (
@@ -65,7 +65,10 @@ function Header() {
       } bg-white/95 backdrop-blur-sm`}
     >
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-        <Link href="/" className="text-xl font-serif font-bold tracking-tight text-black">
+        <Link
+          href="/"
+          className="text-xl font-serif font-bold tracking-tight text-black"
+        >
           FLORIAN HUREL
         </Link>
 
@@ -77,7 +80,11 @@ function Header() {
             aria-label="Toggle menu"
             className="text-black"
           >
-            {isMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+            {isMenuOpen ? (
+              <X className="h-5 w-5" />
+            ) : (
+              <Menu className="h-5 w-5" />
+            )}
           </Button>
         </div>
 
@@ -95,35 +102,34 @@ function Header() {
         </div>
       )}
     </header>
-  )
+  );
 }
 
 function NavLinks({ mobile = false }: { mobile?: boolean }) {
-    const baseClass = "text-sm uppercase tracking-wider transition-colors";
-    const mobileClass = `${baseClass} hover:text-gray-600`;
-    const desktopClass = `${baseClass} text-black hover:text-gray-600`;
-  
-    const linkClass = mobile ? mobileClass : desktopClass;
-  
-    return (
-      <>
-        <Link href="#about" className={linkClass}>
-          About
-        </Link>
-        <Link href="#brands" className={linkClass}>
-          Brands
-        </Link>
-        <Link href="#instagram" className={linkClass}>
-          Instagram
-        </Link>
-  
-        <Link href="#contact" className={linkClass}>
-          Contact
-        </Link>
-      </>
-    );
-  }
-  
+  const baseClass = "text-sm uppercase tracking-wider transition-colors";
+  const mobileClass = `${baseClass} hover:text-gray-600`;
+  const desktopClass = `${baseClass} text-black hover:text-gray-600`;
+
+  const linkClass = mobile ? mobileClass : desktopClass;
+
+  return (
+    <>
+      <Link href="#about" className={linkClass}>
+        About
+      </Link>
+      <Link href="#brands" className={linkClass}>
+        Brands
+      </Link>
+      <Link href="#instagram" className={linkClass}>
+        Instagram
+      </Link>
+
+      <Link href="#contact" className={linkClass}>
+        Contact
+      </Link>
+    </>
+  );
+}
 
 function About() {
   return (
@@ -335,6 +341,15 @@ function BrandSections() {
               </h2>
 
               <p className="text-gray-700 leading-relaxed">
+                Florian, the No1 CrossFit athlete, faced a challenging time when
+                his gym closed during COVID. Determined to regain control of his
+                health and well-being, he built his own gym—FlofitBox. What
+                started as a personal space to stay fit soon became a
+                community-driven fitness hub, inspiring others to prioritize
+                their health and resilience.
+              </p>
+
+              <p className="text-gray-700 leading-relaxed">
                 FloFitBox is Mumbai's premier Multifunctional Fitness Center,
                 founded by Florian Hurel. As a fitness enthusiast who trained in
                 Wushu and Thai Boxing in Thailand, Florian discovered
@@ -520,7 +535,10 @@ function InstagramFeed() {
 const formSchema = z.object({
   name: z.string().min(2, { message: "Name must be at least 2 characters." }),
   email: z.string().email({ message: "Please enter a valid email address." }),
-  phone: z.string().min(10, { message: "Phone number must be at least 10 digits." }).max(15, { message: "Phone number must be at most 15 digits." }),
+  phone: z
+    .string()
+    .min(10, { message: "Phone number must be at least 10 digits." })
+    .max(15, { message: "Phone number must be at most 15 digits." }),
 
   subject: z
     .string()
@@ -696,15 +714,25 @@ function ContactForm() {
                       />
                     </div>
 
-                    <FormField control={form.control} name="phone" render={({ field }) => (
-                      <FormItem className="space-y-2">
-                        <FormLabel className="text-sm font-medium text-gray-700">Phone</FormLabel>
-                        <FormControl>
-                          <Input {...field} placeholder="Your phone number" className="border-gray-300 focus-visible:ring-black" />
-                        </FormControl>
-                        <FormMessage />
-                      </FormItem>
-                    )} />
+                    <FormField
+                      control={form.control}
+                      name="phone"
+                      render={({ field }) => (
+                        <FormItem className="space-y-2">
+                          <FormLabel className="text-sm font-medium text-gray-700">
+                            Phone
+                          </FormLabel>
+                          <FormControl>
+                            <Input
+                              {...field}
+                              placeholder="Your phone number"
+                              className="border-gray-300 focus-visible:ring-black"
+                            />
+                          </FormControl>
+                          <FormMessage />
+                        </FormItem>
+                      )}
+                    />
 
                     <FormField
                       control={form.control}
@@ -764,10 +792,6 @@ function ContactForm() {
     </section>
   );
 }
-
-
-
-
 
 function Footer() {
   const brands = [
