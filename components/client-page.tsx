@@ -813,7 +813,7 @@ function Footer() {
             <h3 className="text-xl font-serif font-bold mb-6">Florian Hurel</h3>
             <p className="text-gray-400 mb-6">
               Renowned Celebrity Hair & Makeup Artist | Beauty Industry Expert
-              Master Stylist and Visionary Entrepreneur with over 2 decades of experience in the beauty industry,
+              Master Stylist and Visionary Entrepreneur with over 2 decades of experience in the beauty industry
             </p>
             <div className="flex space-x-4">
               <a
