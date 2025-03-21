@@ -795,7 +795,6 @@ function ContactForm() {
     </section>
   );
 }
-
 function Footer() {
   const brands = [
     {
@@ -813,12 +812,12 @@ function Footer() {
           <div>
             <h3 className="text-xl font-serif font-bold mb-6">Florian Hurel</h3>
             <p className="text-gray-400 mb-6">
-              Master Stylist and Visionary Entrepreneur with over 20 years of
-              experience in the beauty industry.
+              Renowned Celebrity Hair & Makeup Artist | Beauty Industry Expert
+              Master Stylist and Visionary Entrepreneur with over 2 decades of experience in the beauty industry,
             </p>
             <div className="flex space-x-4">
               <a
-                href="https://instagram.com/florianhurel"
+                href="https://www.instagram.com/florianhurel?igsh=ZHZsc3hjcXJwNWd3"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
@@ -836,7 +835,7 @@ function Footer() {
                 <Facebook className="h-5 w-5" />
               </a>
               <a
-                href="mailto:contact@florianhurel.com"
+                href="mailto:info@florianhurelhaircouture.com"
                 className="text-gray-400 hover:text-white transition-colors"
                 aria-label="Email"
               >
