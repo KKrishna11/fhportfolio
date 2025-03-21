@@ -23,7 +23,7 @@ const cormorantGaramond = Cormorant_Garamond({
 export const metadata: Metadata = {
   title: "Florian Hurel | Master Stylist & Entrepreneur",
   description:
-    "Florian Hurel is a renowned hair stylist and makeup artist with over 20 years of experience in the beauty industry, working with top Bollywood celebrities and international brands.",
+    "Florian Hurel is a renowned hair stylist and makeup artist with over 2 decades of experience in the beauty industry, working with top Bollywood celebrities and international brands.",
 }
 
 export default function RootLayout({
