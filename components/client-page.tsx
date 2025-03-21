@@ -290,25 +290,29 @@ function BrandSections() {
               </h2>
 
               <p className="text-gray-700 leading-relaxed">
-                fhair is Florian Hurel's exclusive line of premium hair care and
-                styling products. Drawing from his extensive experience in the
-                beauty industry, Florian has developed a range of high-quality
-                products designed to meet the diverse needs of hair care
-                enthusiasts.
+                fhair was born out of Florian Hurel's vision to create a
+                world-class hair care brand that would proudly represent India
+                on the global stage.
               </p>
 
               <p className="text-gray-700 leading-relaxed">
-                Each product in the fhair collection is formulated with
-                carefully selected ingredients that nourish, strengthen, and
-                enhance the natural beauty of hair. From shampoos and
-                conditioners to styling products and treatments, the range
-                offers comprehensive solutions for all hair types and concerns.
+                Every aspect of fhair, from its meticulously formulated products
+                to its elegantly designed packaging and nature-inspired hues, is
+                100% made in India.
               </p>
 
               <p className="text-gray-700 leading-relaxed">
-                fhair embodies Florian's commitment to excellence and innovation
-                in the beauty industry, providing consumers with
-                professional-grade products for everyday use.
+                It is a luxury haircare brand that is both effective and made
+                for everyone. fhair is sulfate-free, phosphate-free,
+                paraben-free, vegan, and cruelty-free. It’s gentle on your hair,
+                kind to the planet, and powerful enough to address a wide range
+                of hair concerns.
+              </p>
+
+              <p className="text-gray-700 leading-relaxed">
+                fhair is designed to bring out the best in you. Experience the
+                transformation for yourself. It’s time to celebrate a high-end,
+                Indian-made solution for haircare.
               </p>
 
               <div className="pt-4">
@@ -345,7 +349,7 @@ function BrandSections() {
                 his gym closed during COVID. Determined to regain control of his
                 health and well-being, he built his own gym—FlofitBox. What
                 started as a personal space to stay fit soon became a
-                community-driven fitness hub, inspiring others to prioritize
+                community-driven fitness hub, inspiring youth to prioritize
                 their health and resilience.
               </p>
 
@@ -404,7 +408,6 @@ function BrandSections() {
     </section>
   );
 }
-
 function InstagramFeed() {
   const instagramPosts = [
     {
