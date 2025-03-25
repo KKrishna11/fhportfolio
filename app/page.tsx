@@ -146,34 +146,42 @@ function About() {
             </h2>
 
             <p className="text-gray-700 leading-relaxed">
-              With over 2 decades of experience in the beauty industry, Florian
-              Hurel stands as a renowned figure in the world of hair styling and
-              beauty.
+              With over two decades of experience in the beauty industry,
+              Florian Hurel has cemented his place as a visionary in the world
+              of hair styling and makeup artistry. His journey began at the
+              young age of 16, driven by an insatiable passion for fashion and
+              beauty. Through relentless dedication, innovation, and an eye for
+              perfection, Florian has risen to become one of the most
+              sought-after hair and makeup artists in the entertainment and
+              fashion industries.
             </p>
 
             <p className="text-gray-700 leading-relaxed">
-              Florian, who forayed into the world of fashion at the tender age
-              of 16, is known for his unique and minimalistic style and has
-              carved out a niche for himself in Bollywood. With almost two
-              decades of experience in make-up and hair styling, he has worked
-              with artists on the most prestigious platforms, such as the Cannes
-              Film Festival and prominent film awards in the country.
+              Florian's expertise lies in his ability to create effortlessly
+              elegant and trend-setting looks, making him the go-to artist for
+              Bollywood’s biggest stars, including Deepika Padukone, Priyanka
+              Chopra Jonas, Anushka Sharma, Shraddha Kapoor, Aishwarya Rai
+              Bachchan, and Katrina Kaif. His work has graced prestigious global
+              platforms like the Cannes Film Festival and India’s most esteemed
+              film awards, solidifying his reputation as a maestro of beauty.
             </p>
 
             <p className="text-gray-700 leading-relaxed">
-              Hair and make-up artist Florian Hurel is a trendsetter! French
-              make-up and hair stylist Florian Hurel is one of the most sought-
-              after names in the entertainment industry today. He has styled the
-              likes of Deepika Padukone, Priyanka Chopra Jonas, Anushka Sharma,
-              Shraddha Kapoor, Aishwarya Rai Bachchan, Katrina Kaif and many
-              more, also adding value to his profile on working with them on
-              some of India's highest grossing Bollywood Blockbusters.
+              His relentless pursuit of excellence extends beyond celebrity
+              styling—Florian has been a creative force behind editorial shoots
+              for top-tier fashion magazines such as <strong>Vogue, GQ, Harper’s Bazaar, Elle, and Grazia</strong>. His
+              minimalist yet impactful approach to beauty has redefined industry
+              standards, influencing trends and inspiring the next generation of
+              stylists.
             </p>
 
             <p className="text-gray-700 leading-relaxed">
-              His uniqueness and recognition in creating looks, Florian is the
-              go to Artist for high-end fashion magazines such as Vogue, GQ,
-              Harpers Bazaar , Elle, and Grazia.
+              Florian’s success is not merely a product of talent but of sheer
+              perseverance, discipline, and an unwavering commitment to his
+              craft. From working behind the scenes on Bollywood blockbusters to
+              setting benchmarks in luxury beauty and fashion, he continues to
+              push boundaries, proving that true mastery is achieved through
+              passion, hard work, and a relentless pursuit of perfection.
             </p>
 
             <div className="pt-4">
@@ -200,38 +208,35 @@ function BrandSections() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1 space-y-6">
               <h2 className="text-3xl md:text-4xl font-serif font-bold tracking-tight">
-                Florian Hurel Hair Couture & Spa
+                Florian Hurel Hair Couture & Spa isn’t just a salon—it’s an
+                exclusive sanctuary where beauty meets artistry, and luxury is a
+                way of life.
               </h2>
 
               <p className="text-gray-700 leading-relaxed">
-                Florian Hurel Hair Couture & Spa is more than just a destination
-                for beauty—it’s an artistic expression that connects hair
-                styling and wellness to the essence of individuality and
-                empowerment. Founded by renowned celebrity Hair & Makeup Artist
-                Florian Hurel, our space redefines luxury, blending high-end
-                hair couture with rejuvenating spa experiences.
+                Founded by renowned celebrity Hair & Makeup Artist Florian
+                Hurel, our space is a reflection of his philosophy—where every
+                hair couture experience is deeply personal, celebrating
+                individuality through bespoke transformations. Here, beauty is
+                not a trend but an intimate journey, tailored to elevate your
+                essence and style.
               </p>
 
               <p className="text-gray-700 leading-relaxed">
-                For Florian, Hair Couture is an intimate journey of beauty—a
-                form of self-expression that celebrates diversity and
-                uniqueness. This philosophy extends beyond styling, with
-                training at its core, ensuring that every artist under his
-                guidance understands and enhances the distinct beauty of every
-                individual they work with.
+                Each visit is more than a service; it’s an indulgence in
+                handcrafted luxury. From precision cuts to custom color
+                artistry, every detail is curated to enhance your uniqueness.
+                Our spa rituals go beyond relaxation—they are immersive
+                experiences designed to rejuvenate, restore, and refine,
+                ensuring that self-care feels like a celebration of self.
               </p>
 
               <p className="text-gray-700 leading-relaxed">
-                Complementing this vision, our spa services offer a sanctuary of
-                relaxation and renewal, designed to restore balance and enhance
-                natural beauty. Whether it’s a transformative hair experience or
-                a soothing spa retreat, Florian Hurel Hair Couture & Spa is a
-                haven for self-care, empowerment, and artistry.
-              </p>
-
-              <p className="text-gray-700 leading-relaxed">
-                Here, beauty is not just a craft—it’s a powerful tool for
-                confidence, self-expression, and transformation.
+                At <strong>Florian Hurel Hair Couture & Spa,</strong> we don’t
+                just offer beauty—we craft moments of transformation,
+                confidence, and empowerment. Because true luxury isn’t just
+                about looking beautiful—it’s about feeling it in every
+                experience.
               </p>
 
               <div className="pt-4">
@@ -280,33 +285,39 @@ function BrandSections() {
 
             <div className="space-y-6">
               <h2 className="text-3xl md:text-4xl font-serif font-bold tracking-wide">
-                fhair
+                f<span className="pl-1"></span>hair: India's Luxury Haircare,
+                Made for the World
               </h2>
 
               <p className="text-gray-700 leading-relaxed">
-                fhair was born out of Florian Hurel's vision to create a
-                world-class hair care brand that would proudly represent India
-                on the global stage.
+                fhair isn’t just a haircare brand—it’s a movement. Born from
+                Florian Hurel’s vision to create a world-class brand that
+                represents India on the global stage, fhair is a testament to
+                innovation, craftsmanship, and excellence.
               </p>
 
               <p className="text-gray-700 leading-relaxed">
-                Every aspect of fhair, from its meticulously formulated products
-                to its elegantly designed packaging and nature-inspired hues, is
-                100% made in India.
+                Every bottle, every formula, every shade is{" "}
+                <strong>100% made in India,</strong>
+                inspired by the richness of our land and the wisdom of nature.
+                Our products are meticulously crafted to be{" "}
+                <strong>
+                  sulfate-free, phosphate-free, paraben-free, vegan, and
+                  cruelty-free
+                </strong>
+                —powerful enough to transform your hair, yet gentle on the
+                planet.
               </p>
 
               <p className="text-gray-700 leading-relaxed">
-                It is a luxury haircare brand that is both effective and made
-                for everyone. fhair is sulfate-free, phosphate-free,
-                paraben-free, vegan, and cruelty-free. It’s gentle on your hair,
-                kind to the planet, and powerful enough to address a wide range
-                of hair concerns.
+                This is more than luxury haircare. It’s an{" "}
+                <strong>Indian-born revolution,</strong> designed for everyone,
+                everywhere. Experience the future of haircare, rooted in India,
+                created for the world.
               </p>
 
               <p className="text-gray-700 leading-relaxed">
-                fhair is designed to bring out the best in you. Experience the
-                transformation for yourself. It’s time to celebrate a high-end,
-                Indian-made solution for haircare.
+                <strong>fhair—where beauty meets purpose.</strong>
               </p>
 
               <div className="pt-4">
@@ -335,39 +346,42 @@ function BrandSections() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <h2 className="text-3xl md:text-4xl font-serif font-bold tracking-tight">
-                FloFitBox
+                FloFitBox: A Passion Project That Became a Movement
               </h2>
 
               <p className="text-gray-700 leading-relaxed">
-                Florian, the No1 CrossFit athlete, faced a challenging time when
-                his gym closed during COVID. Determined to regain control of his
-                health and well-being, he built his own gym—FlofitBox. What
-                started as a personal space to stay fit soon became a
-                community-driven fitness hub, inspiring youth to prioritize
-                their health and resilience.
+                For Florian Hurel, fitness has always been more than just a
+                routine—it’s been a way of life. But when COVID forced gyms to
+                shut down, it also closed off a space that had been his
+                sanctuary. Struggling with the impact, Florian refused to let
+                circumstances define him. Instead, he turned adversity into an
+                opportunity, building his own gym—FloFitBox—not just for
+                himself, but for anyone who needed a space to rebuild, refocus,
+                and reclaim their strength.
               </p>
 
               <p className="text-gray-700 leading-relaxed">
-                FloFitBox is Mumbai's premier Multifunctional Fitness Center,
-                founded by Florian Hurel. As a fitness enthusiast who trained in
-                Wushu and Thai Boxing in Thailand, Florian discovered
-                cross-functional training six years ago and has been passionate
-                about it ever since.
+                What started as a personal journey soon evolved into something
+                bigger. FloFitBox became a community—a space where fitness is
+                not just about lifting weights but about lifting each other up.
+                Drawing from his experience in Wushu and Thai Boxing, and his
+                deep-rooted love for cross-functional training, Florian created
+                a space that merges passion with purpose.
               </p>
 
               <p className="text-gray-700 leading-relaxed">
-                The center offers a comprehensive approach to fitness, combining
-                various training methodologies to help clients achieve their
-                health and wellness goals. With state-of-the-art equipment and
-                expert trainers, FloFitBox provides a dynamic and effective
-                workout experience.
+                Today, FloFitBox is Mumbai’s premier Multifunctional Fitness
+                Center, bringing together people who share the same hunger for
+                growth, resilience, and transformation. With cutting-edge
+                equipment, expert trainers, and an approach that blends
+                strength, agility, and endurance, it’s more than just a gym—it’s
+                a movement.
               </p>
 
               <p className="text-gray-700 leading-relaxed">
-                Florian's vision for FloFitBox extends beyond physical fitness,
-                embracing a holistic approach to wellness that nurtures both
-                body and mind. The center has become a hub for fitness
-                enthusiasts and celebrities alike.
+                For Florian, this is not just about fitness. It’s about building
+                a mindset, a lifestyle, and a family of individuals who push
+                beyond their limits—together.
               </p>
 
               <div className="pt-4">
@@ -624,7 +638,7 @@ function ContactForm() {
                   Contact Information
                 </h3>
                 <div className="space-y-6">
-                  <div className="flex items-center space-x-4">
+                  {/* <div className="flex items-center space-x-4">
                     <Mail className="h-5 w-5 text-gray-400" />
                     <a
                       href="mailto:contact@florianhurel.com"
@@ -632,8 +646,7 @@ function ContactForm() {
                     >
                       info@florianhurelhaircouture.com
                     </a>
-                  </div>
-
+                  </div> */}
                   <div className="flex items-center space-x-4">
                     <Instagram className="h-5 w-5 text-gray-400" />
                     <a
@@ -832,7 +845,8 @@ function Footer() {
             <h3 className="text-xl font-serif font-bold mb-6">Florian Hurel</h3>
             <p className="text-gray-400 mb-6">
               Renowned Celebrity Hair & Makeup Artist | Beauty Industry Expert
-              Master Stylist and Visionary Entrepreneur with over 2 decades of experience in the beauty industry
+              Master Stylist and Visionary Entrepreneur with over 2 decades of
+              experience in the beauty industry
             </p>
             <div className="flex space-x-4">
               <a
