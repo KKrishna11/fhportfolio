@@ -132,10 +132,10 @@ function About() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <Image
-              src="https://cdn.shopify.com/s/files/1/0651/4743/7218/files/Untitled_design.jpg?v=1738496067"
-              alt="Florian Hurel Portrait"
-              width={600}
-              height={600}
+              src="https://cdn.shopify.com/s/files/1/0651/4743/7218/files/fhmainimage.jpg?v=1742885727"
+              alt="Florian Hurel "
+              width={550}
+              height={200}
               className="rounded-lg shadow-lg object-cover"
             />
           </div>

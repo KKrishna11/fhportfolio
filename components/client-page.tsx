@@ -132,10 +132,10 @@ function About() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <Image
-              src="https://cdn.shopify.com/s/files/1/0651/4743/7218/files/Untitled_design.jpg?v=1738496067"
+              src="https://cdn.shopify.com/s/files/1/0651/4743/7218/files/fhmainimage.jpg?v=1742885727"
               alt="Florian Hurel Portrait"
-              width={600}
-              height={600}
+              width={550}
+              height={200}
               className="rounded-lg shadow-lg object-cover"
             />
           </div>
@@ -169,7 +169,8 @@ function About() {
             <p className="text-gray-700 leading-relaxed">
               His relentless pursuit of excellence extends beyond celebrity
               styling—Florian has been a creative force behind editorial shoots
-              for top-tier fashion magazines such as <strong>Vogue, GQ, Harper’s Bazaar, Elle, and Grazia</strong>. His
+              for top-tier fashion magazines such as{" "}
+              <strong>Vogue, GQ, Harper’s Bazaar, Elle, and Grazia</strong>. His
               minimalist yet impactful approach to beauty has redefined industry
               standards, influencing trends and inspiring the next generation of
               stylists.
