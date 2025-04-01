@@ -133,7 +133,7 @@ function About() {
           <div>
             <Image
               src="https://cdn.shopify.com/s/files/1/0651/4743/7218/files/fhmainimage.jpg?v=1742885727"
-              alt="Florian Hurel "
+              alt="Florian Hurel Portrait"
               width={550}
               height={200}
               className="rounded-lg shadow-lg object-cover"
@@ -275,7 +275,7 @@ function BrandSections() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <Image
-                src="https://cdn.shopify.com/s/files/1/0651/4743/7218/files/Untitled_design_11.png?v=1738408639"
+                src="https://cdn.shopify.com/s/files/1/0651/4743/7218/files/Color_Longevity_Shampoo_1.jpg?v=1742543109"
                 alt="fhair"
                 width={600}
                 height={600}
@@ -403,10 +403,12 @@ function BrandSections() {
 
             <div>
               <Image
-                src="/assets/img/instagram/5.jpg"
+              
+              src="https://cdn.shopify.com/s/files/1/0651/4743/7218/files/IMG_4026.jpg?v=1743503837"
+                // src="/assets/img/instagram/5.jpg"
                 alt="FloFitBox"
                 width={600}
-                height={800}
+                height={300}
                 className="rounded-lg shadow-lg object-cover"
               />
             </div>
