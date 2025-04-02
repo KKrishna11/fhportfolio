@@ -4,7 +4,7 @@ import type React from "react";
 
 import Image from "next/image";
 import Link from "next/link";
-import { Instagram, Facebook, Mail, Menu, X } from "lucide-react";
+import { Instagram, Facebook, Mail, Menu, X ,Linkedin} from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -32,7 +32,7 @@ export default function Home() {
 
       <About />
       <BrandSections />
-      <InstagramFeed />
+      {/* <InstagramFeed /> */}
       <ContactForm />
       <Footer />
     </div>
@@ -114,7 +114,7 @@ function NavLinks({ mobile = false }: { mobile?: boolean }) {
       <Link href="#brands" className={linkClass}>
         Brands
       </Link>
-      <Link href="#instagram" className={linkClass}>
+      <Link href="https://www.instagram.com/florianhurel/?igsh=ZHZsc3hjcXJwNWd3#" className={linkClass}>
         Instagram
       </Link>
 
@@ -404,7 +404,7 @@ function BrandSections() {
             <div>
               <Image
               
-              src="https://cdn.shopify.com/s/files/1/0651/4743/7218/files/IMG_4026.jpg?v=1743503837"
+              src="https://cdn.shopify.com/s/files/1/0651/4743/7218/files/IMG_4023.jpg?v=1743571477"
                 // src="/assets/img/instagram/5.jpg"
                 alt="FloFitBox"
                 width={600}
@@ -419,154 +419,154 @@ function BrandSections() {
   );
 }
 
-function InstagramFeed() {
-  const instagramPosts = [
-    {
-      id: 1,
-      imageUrl: "/assets/img/instagram/1.jpg",
-      link: "https://www.instagram.com/florianhurel?igsh=ZHZsc3hjcXJwNWd3",
-    },
-    {
-      id: 2,
-      imageUrl: "/assets/img/instagram/4.jpg",
-      link: "https://www.instagram.com/florianhurel?igsh=ZHZsc3hjcXJwNWd3",
-    },
-    {
-      id: 3,
+// function InstagramFeed() {
+//   const instagramPosts = [
+//     {
+//       id: 1,
+//       imageUrl: "/assets/img/instagram/1.jpg",
+//       link: "https://www.instagram.com/florianhurel?igsh=ZHZsc3hjcXJwNWd3",
+//     },
+//     {
+//       id: 2,
+//       imageUrl: "/assets/img/instagram/4.jpg",
+//       link: "https://www.instagram.com/florianhurel?igsh=ZHZsc3hjcXJwNWd3",
+//     },
+//     {
+//       id: 3,
 
-      imageUrl: "/assets/img/instagram/2.jpg",
-      link: "https://www.instagram.com/florianhurel?igsh=ZHZsc3hjcXJwNWd3",
-    },
-    {
-      id: 4,
-      imageUrl: "/assets/img/instagram/5.jpg",
-      link: "https://www.instagram.com/florianhurel?igsh=ZHZsc3hjcXJwNWd3",
-    },
-    {
-      id: 5,
-      imageUrl: "/assets/img/instagram/7.jpg",
-      link: "https://www.instagram.com/florianhurel?igsh=ZHZsc3hjcXJwNWd3",
-    },
-    {
-      id: 6,
-      imageUrl: "/assets/img/instagram/6.jpg",
-      link: "https://www.instagram.com/florianhurel?igsh=ZHZsc3hjcXJwNWd3",
-    },
-    {
-      id: 7,
-      imageUrl: "/assets/img/instagram/3.jpg",
-      link: "https://www.instagram.com/florianhurel?igsh=ZHZsc3hjcXJwNWd3",
-    },
-    {
-      id: 8,
-      imageUrl: "/assets/img/instagram/8.jpg",
+//       imageUrl: "/assets/img/instagram/2.jpg",
+//       link: "https://www.instagram.com/florianhurel?igsh=ZHZsc3hjcXJwNWd3",
+//     },
+//     {
+//       id: 4,
+//       imageUrl: "/assets/img/instagram/5.jpg",
+//       link: "https://www.instagram.com/florianhurel?igsh=ZHZsc3hjcXJwNWd3",
+//     },
+//     {
+//       id: 5,
+//       imageUrl: "/assets/img/instagram/7.jpg",
+//       link: "https://www.instagram.com/florianhurel?igsh=ZHZsc3hjcXJwNWd3",
+//     },
+//     {
+//       id: 6,
+//       imageUrl: "/assets/img/instagram/6.jpg",
+//       link: "https://www.instagram.com/florianhurel?igsh=ZHZsc3hjcXJwNWd3",
+//     },
+//     {
+//       id: 7,
+//       imageUrl: "/assets/img/instagram/3.jpg",
+//       link: "https://www.instagram.com/florianhurel?igsh=ZHZsc3hjcXJwNWd3",
+//     },
+//     {
+//       id: 8,
+//       imageUrl: "/assets/img/instagram/8.jpg",
 
-      link: "https://www.instagram.com/florianhurel?igsh=ZHZsc3hjcXJwNWd3",
-    },
-  ];
+//       link: "https://www.instagram.com/florianhurel?igsh=ZHZsc3hjcXJwNWd3",
+//     },
+//   ];
 
-  const scrollContainerRef = useRef<HTMLDivElement>(null);
+//   const scrollContainerRef = useRef<HTMLDivElement>(null);
 
-  const scroll = (direction: "left" | "right") => {
-    if (scrollContainerRef.current) {
-      const { current } = scrollContainerRef;
-      const scrollAmount =
-        direction === "left"
-          ? -current.offsetWidth / 2
-          : current.offsetWidth / 2;
-      current.scrollBy({ left: scrollAmount, behavior: "smooth" });
-    }
-  };
+//   const scroll = (direction: "left" | "right") => {
+//     if (scrollContainerRef.current) {
+//       const { current } = scrollContainerRef;
+//       const scrollAmount =
+//         direction === "left"
+//           ? -current.offsetWidth / 2
+//           : current.offsetWidth / 2;
+//       current.scrollBy({ left: scrollAmount, behavior: "smooth" });
+//     }
+//   };
 
-  return (
-    <section id="instagram" className="py-24 bg-white">
-      <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between mb-12">
-          <h2 className="text-3xl md:text-4xl font-serif font-bold tracking-tight">
-            Instagram
-          </h2>
-          <Link
-            href="https://instagram.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center text-sm uppercase tracking-wider font-medium hover:text-gray-600 transition-colors"
-          >
-            <Instagram className="h-5 w-5 mr-2" />
-            Follow @florianhurel
-          </Link>
-        </div>
+//   return (
+//     <section id="instagram" className="py-24 bg-white">
+//       <div className="container mx-auto px-4">
+//         <div className="flex items-center justify-between mb-12">
+//           <h2 className="text-3xl md:text-4xl font-serif font-bold tracking-tight">
+//             Instagram
+//           </h2>
+//           <Link
+//             href="https://instagram.com"
+//             target="_blank"
+//             rel="noopener noreferrer"
+//             className="flex items-center text-sm uppercase tracking-wider font-medium hover:text-gray-600 transition-colors"
+//           >
+//             <Instagram className="h-5 w-5 mr-2" />
+//             Follow @florianhurel
+//           </Link>
+//         </div>
 
-        <div className="relative overflow-hidden">
-          <div className="w-full flex gap-4">
-            <div className="flex gap-4 animate-marquee">
-              {instagramPosts.map((post) => (
-                <a
-                  key={post.id}
-                  href={post.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex-none w-[280px] sm:w-[320px] aspect-square snap-start"
-                >
-                  <div className="relative w-full h-full group overflow-hidden rounded-lg">
-                    <Image
-                      src={post.imageUrl || "/placeholder.svg"}
-                      alt={`Instagram post ${post.id}`}
-                      fill
-                      className="object-cover object-top transition-transform duration-500 group-hover:scale-105"
-                    />
-                    <div className="absolute inset-0 transition-colors duration-300 flex items-center justify-center">
-                      <Instagram className="text-white opacity-0 group-hover:opacity-100 transition-opacity h-8 w-8" />
-                    </div>
-                  </div>
-                </a>
-              ))}
-            </div>
-            {/* Duplicate for infinite scrolling effect */}
-            <div className="flex gap-4 animate-marquee">
-              {instagramPosts.map((post) => (
-                <a
-                  key={`dup-${post.id}`}
-                  href={post.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex-none w-[280px] sm:w-[320px] aspect-square snap-start"
-                >
-                  <div className="relative w-full h-full group overflow-hidden rounded-lg">
-                    <Image
-                      src={post.imageUrl || "/placeholder.svg"}
-                      alt={`Instagram post ${post.id}`}
-                      fill
-                      className="object-cover object-top transition-transform duration-500 group-hover:scale-105"
-                    />
-                    <div className="absolute inset-0 transition-colors duration-300 flex items-center justify-center">
-                      <Instagram className="text-white opacity-0 group-hover:opacity-100 transition-opacity h-8 w-8" />
-                    </div>
-                  </div>
-                </a>
-              ))}
-            </div>
-          </div>
-        </div>
-      </div>
+//         <div className="relative overflow-hidden">
+//           <div className="w-full flex gap-4">
+//             <div className="flex gap-4 animate-marquee">
+//               {instagramPosts.map((post) => (
+//                 <a
+//                   key={post.id}
+//                   href={post.link}
+//                   target="_blank"
+//                   rel="noopener noreferrer"
+//                   className="flex-none w-[280px] sm:w-[320px] aspect-square snap-start"
+//                 >
+//                   <div className="relative w-full h-full group overflow-hidden rounded-lg">
+//                     <Image
+//                       src={post.imageUrl || "/placeholder.svg"}
+//                       alt={`Instagram post ${post.id}`}
+//                       fill
+//                       className="object-cover object-top transition-transform duration-500 group-hover:scale-105"
+//                     />
+//                     <div className="absolute inset-0 transition-colors duration-300 flex items-center justify-center">
+//                       <Instagram className="text-white opacity-0 group-hover:opacity-100 transition-opacity h-8 w-8" />
+//                     </div>
+//                   </div>
+//                 </a>
+//               ))}
+//             </div>
+//             {/* Duplicate for infinite scrolling effect */}
+//             <div className="flex gap-4 animate-marquee">
+//               {instagramPosts.map((post) => (
+//                 <a
+//                   key={`dup-${post.id}`}
+//                   href={post.link}
+//                   target="_blank"
+//                   rel="noopener noreferrer"
+//                   className="flex-none w-[280px] sm:w-[320px] aspect-square snap-start"
+//                 >
+//                   <div className="relative w-full h-full group overflow-hidden rounded-lg">
+//                     <Image
+//                       src={post.imageUrl || "/placeholder.svg"}
+//                       alt={`Instagram post ${post.id}`}
+//                       fill
+//                       className="object-cover object-top transition-transform duration-500 group-hover:scale-105"
+//                     />
+//                     <div className="absolute inset-0 transition-colors duration-300 flex items-center justify-center">
+//                       <Instagram className="text-white opacity-0 group-hover:opacity-100 transition-opacity h-8 w-8" />
+//                     </div>
+//                   </div>
+//                 </a>
+//               ))}
+//             </div>
+//           </div>
+//         </div>
+//       </div>
 
-      <style jsx>{`
-        @keyframes marquee {
-          from {
-            transform: translateX(0%);
-          }
-          to {
-            transform: translateX(-100%);
-          }
-        }
-        .animate-marquee {
-          display: flex;
-          animation: marquee 45s linear infinite;
-          white-space: nowrap;
-        }
-      `}</style>
-    </section>
-  );
-}
+//       <style jsx>{`
+//         @keyframes marquee {
+//           from {
+//             transform: translateX(0%);
+//           }
+//           to {
+//             transform: translateX(-100%);
+//           }
+//         }
+//         .animate-marquee {
+//           display: flex;
+//           animation: marquee 45s linear infinite;
+//           white-space: nowrap;
+//         }
+//       `}</style>
+//     </section>
+//   );
+// }
 
 // Contact form with validation
 const formSchema = z.object({
@@ -672,6 +672,19 @@ function ContactForm() {
                       Florian Hurel
                     </a>
                   </div>
+
+                  <div className="flex items-center space-x-4">
+                    <Linkedin className="h-5 w-5 text-gray-400" />
+                    <a
+                      href="https://www.linkedin.com/in/florian-hurel-4a5b35318/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-300 hover:text-white transition-colors"
+                    >
+                      Florian Hurel
+                    </a>
+                  </div>
+
                 </div>
 
                 <div className="mt-12">
@@ -696,6 +709,15 @@ function ContactForm() {
                       aria-label="Facebook"
                     >
                       <Facebook className="h-5 w-5" />
+                    </a>
+                    <a
+                      href="https://www.linkedin.com/in/florian-hurel-4a5b35318/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-white/10 hover:bg-white/20 p-3 rounded-full transition-colors"
+                      aria-label="Facebook"
+                    >
+                      <Linkedin className="h-5 w-5" />
                     </a>
                   </div>
                 </div>
@@ -869,6 +891,16 @@ function Footer() {
               >
                 <Facebook className="h-5 w-5" />
               </a>
+              <a
+                href="https://www.linkedin.com/in/florian-hurel-4a5b35318/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-white transition-colors"
+                aria-label="Facebook"
+              >
+                <Linkedin className="h-5 w-5" />
+              </a>
+
               <a
                 href="mailto:info@florianhurelhaircouture.com"
                 className="text-gray-400 hover:text-white transition-colors"
