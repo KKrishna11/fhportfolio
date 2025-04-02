@@ -661,7 +661,7 @@ function ContactForm() {
                     </a>
                   </div>
 
-                  <div className="flex items-center space-x-4">
+                  {/* <div className="flex items-center space-x-4">
                     <Facebook className="h-5 w-5 text-gray-400" />
                     <a
                       href="https://facebook.com/florianhurel"
@@ -671,7 +671,7 @@ function ContactForm() {
                     >
                       Florian Hurel
                     </a>
-                  </div>
+                  </div> */}
 
                   <div className="flex items-center space-x-4">
                     <Linkedin className="h-5 w-5 text-gray-400" />
@@ -701,7 +701,7 @@ function ContactForm() {
                     >
                       <Instagram className="h-5 w-5" />
                     </a>
-                    <a
+                    {/* <a
                       href="https://facebook.com/florianhurel"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -709,13 +709,13 @@ function ContactForm() {
                       aria-label="Facebook"
                     >
                       <Facebook className="h-5 w-5" />
-                    </a>
+                    </a> */}
                     <a
                       href="https://www.linkedin.com/in/florian-hurel-4a5b35318/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-white/10 hover:bg-white/20 p-3 rounded-full transition-colors"
-                      aria-label="Facebook"
+                      aria-label="Linkedin"
                     >
                       <Linkedin className="h-5 w-5" />
                     </a>
@@ -882,7 +882,7 @@ function Footer() {
               >
                 <Instagram className="h-5 w-5" />
               </a>
-              <a
+              {/* <a
                 href="https://facebook.com/florianhurel"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -890,7 +890,7 @@ function Footer() {
                 aria-label="Facebook"
               >
                 <Facebook className="h-5 w-5" />
-              </a>
+              </a> */}
               <a
                 href="https://www.linkedin.com/in/florian-hurel-4a5b35318/"
                 target="_blank"

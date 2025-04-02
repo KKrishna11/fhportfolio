@@ -4,7 +4,7 @@ import type React from "react";
 
 import Image from "next/image";
 import Link from "next/link";
-import { Instagram, Facebook, Mail, Menu, X } from "lucide-react";
+import { Instagram, Facebook, Mail, Menu, X ,Linkedin} from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -114,7 +114,7 @@ function NavLinks({ mobile = false }: { mobile?: boolean }) {
       <Link href="#brands" className={linkClass}>
         Brands
       </Link>
-      <Link href="#instagram" className={linkClass}>
+      <Link href="https://www.instagram.com/florianhurel/?igsh=ZHZsc3hjcXJwNWd3#" className={linkClass}>
         Instagram
       </Link>
 
@@ -169,8 +169,7 @@ function About() {
             <p className="text-gray-700 leading-relaxed">
               His relentless pursuit of excellence extends beyond celebrity
               styling—Florian has been a creative force behind editorial shoots
-              for top-tier fashion magazines such as{" "}
-              <strong>Vogue, GQ, Harper’s Bazaar, Elle, and Grazia</strong>. His
+              for top-tier fashion magazines such as <strong>Vogue, GQ, Harper’s Bazaar, Elle, and Grazia</strong>. His
               minimalist yet impactful approach to beauty has redefined industry
               standards, influencing trends and inspiring the next generation of
               stylists.
@@ -419,6 +418,7 @@ function BrandSections() {
     </section>
   );
 }
+
 // function InstagramFeed() {
 //   const instagramPosts = [
 //     {
@@ -661,7 +661,7 @@ function ContactForm() {
                     </a>
                   </div>
 
-                  <div className="flex items-center space-x-4">
+                  {/* <div className="flex items-center space-x-4">
                     <Facebook className="h-5 w-5 text-gray-400" />
                     <a
                       href="https://facebook.com/florianhurel"
@@ -671,7 +671,20 @@ function ContactForm() {
                     >
                       Florian Hurel
                     </a>
+                  </div> */}
+
+                  <div className="flex items-center space-x-4">
+                    <Linkedin className="h-5 w-5 text-gray-400" />
+                    <a
+                      href="https://www.linkedin.com/in/florian-hurel-4a5b35318/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-300 hover:text-white transition-colors"
+                    >
+                      Florian Hurel
+                    </a>
                   </div>
+
                 </div>
 
                 <div className="mt-12">
@@ -688,7 +701,7 @@ function ContactForm() {
                     >
                       <Instagram className="h-5 w-5" />
                     </a>
-                    <a
+                    {/* <a
                       href="https://facebook.com/florianhurel"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -696,6 +709,15 @@ function ContactForm() {
                       aria-label="Facebook"
                     >
                       <Facebook className="h-5 w-5" />
+                    </a> */}
+                    <a
+                      href="https://www.linkedin.com/in/florian-hurel-4a5b35318/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-white/10 hover:bg-white/20 p-3 rounded-full transition-colors"
+                      aria-label="Linkedin"
+                    >
+                      <Linkedin className="h-5 w-5" />
                     </a>
                   </div>
                 </div>
@@ -860,7 +882,7 @@ function Footer() {
               >
                 <Instagram className="h-5 w-5" />
               </a>
-              <a
+              {/* <a
                 href="https://facebook.com/florianhurel"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -868,7 +890,17 @@ function Footer() {
                 aria-label="Facebook"
               >
                 <Facebook className="h-5 w-5" />
+              </a> */}
+              <a
+                href="https://www.linkedin.com/in/florian-hurel-4a5b35318/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-white transition-colors"
+                aria-label="Facebook"
+              >
+                <Linkedin className="h-5 w-5" />
               </a>
+
               <a
                 href="mailto:info@florianhurelhaircouture.com"
                 className="text-gray-400 hover:text-white transition-colors"
