@@ -258,7 +258,7 @@ function BrandSections() {
 
             <div className="order-1 lg:order-2">
               <Image
-                src="https://cdn.shopify.com/s/files/1/0651/4743/7218/files/test-2.jpg?v=1741260581"
+                src="https://cdn.shopify.com/s/files/1/0651/4743/7218/files/model_dressing_1.jpg?v=1742544308"
                 alt="Florian Hurel Hair Couture & Spa"
                 width={600}
                 height={800}
